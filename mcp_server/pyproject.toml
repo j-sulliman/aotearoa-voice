@@ -1,0 +1,20 @@
+[project]
+name = "aotearoa-mcp-server"
+version = "0.1.0"
+description = "MCP server exposing tour-guide tools for the Aotearoa Voice demo."
+readme = "../README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "mcp>=1.2.0",
+  "starlette>=0.37.0",
+  "uvicorn[standard]>=0.30.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tools*"]

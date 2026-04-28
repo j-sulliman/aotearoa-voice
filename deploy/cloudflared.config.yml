@@ -1,0 +1,35 @@
+# Cloudflare Tunnel — reference config for the Aotearoa Voice demo.
+#
+# Run with:
+#   cloudflared tunnel --config deploy/cloudflared.config.yml run <tunnel-name>
+#
+# Replace <tunnel-uuid> with your tunnel's UUID and the hostnames with your
+# own. Two routes — one for the frontend (root) and one for the backend API.
+# The backend hostname is what the frontend's VITE_API_BASE_URL should point
+# at in production.
+
+tunnel: <tunnel-uuid>
+credentials-file: /Users/<you>/.cloudflared/<tunnel-uuid>.json
+
+ingress:
+  # Frontend — the React app served by Vite or a static server on :5173
+  - hostname: aotearoa.example.com
+    service: http://localhost:5173
+
+  # Backend API — FastAPI published on host :8002 (container-internal :8000)
+  - hostname: api.aotearoa.example.com
+    service: http://localhost:8002
+    originRequest:
+      # Audio uploads (transcribe) and TTS streams need a longer read budget
+      # than the Cloudflare default. 60s covers worst-case ElevenLabs first-byte.
+      connectTimeout: 10s
+      tlsTimeout: 10s
+      noTLSVerify: true
+
+  # MCP server — exposed publicly so curious reviewers can connect Claude
+  # Desktop directly. Comment this out if you'd rather keep it private.
+  - hostname: mcp.aotearoa.example.com
+    service: http://localhost:8001
+
+  # Default catch-all (required)
+  - service: http_status:404

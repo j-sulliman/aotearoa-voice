@@ -1,0 +1,40 @@
+# Env / secrets
+.env
+.env.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+*.tsbuildinfo
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Docker
+*.pid
+
+# Logs
+*.log
+logs/
+
+# Build artefacts
+coverage/
+.cache/

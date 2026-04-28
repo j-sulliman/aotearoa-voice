@@ -1,0 +1,86 @@
+# Aotearoa Voice — local dev / demo stack
+#
+# `docker compose up --build` brings up:
+#   - mcp_server  : SSE MCP server exposing 5 tour tools (port 8001)
+#   - backend     : FastAPI orchestrator: STT, agent loop, TTS (port 8000)
+#   - frontend    : React app (built separately in Claude Design, port 5173)
+#
+# The frontend service is included as a stub so the full stack is one command.
+# Comment it out (or set `profiles: [frontend]`) until the frontend lands.
+
+services:
+  mcp_server:
+    build:
+      context: ./mcp_server
+    container_name: aotearoa-mcp
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/healthz').read()"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+    container_name: aotearoa-backend
+    ports:
+      # Host port 8002 → container 8000. Remapped to avoid clashes with
+      # other dev stacks (e.g. another FastAPI on :8000). Container-internal
+      # port stays 8000, so the healthcheck and inter-service URLs inside
+      # the docker network are unchanged.
+      - "8002:8000"
+    env_file:
+      - .env
+    environment:
+      # docker-internal MCP URL overrides the default localhost
+      - MCP_SERVER_URL=http://mcp_server:8001/sse
+    depends_on:
+      mcp_server:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz').read()"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        # Browser-side URL — must be reachable from the user's machine, not
+        # from inside the docker network (so use the host port for local dev,
+        # or your tunneled API hostname for the public demo).
+        API_BASE_URL: ${FRONTEND_API_BASE_URL:-http://localhost:8002}
+    container_name: aotearoa-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # Cloudflare Tunnel sidecar — only runs when CLOUDFLARE_TUNNEL_TOKEN is set
+  # (i.e. for the public demo). Local dev doesn't need it.
+  #
+  # Token-based: ingress rules are configured in the Zero Trust dashboard
+  # against the service names below (frontend:5173, backend:8000, mcp_server:8001).
+  # No config.yml in the repo — see deploy/cloudflared.config.yml for what the
+  # equivalent CLI/file-based config would look like as documentation.
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: aotearoa-cloudflared
+    profiles: ["tunnel"]
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN:-}
+    depends_on:
+      - frontend
+      - backend
+      - mcp_server
+    restart: unless-stopped

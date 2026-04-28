@@ -1,0 +1,135 @@
+{
+  "Aotearoa": {
+    "phonetic": "ah-oh-teh-ah-ROH-ah",
+    "audio_hint": "Five gentle syllables, soft 't' (closer to a 'd'), stress on the fourth. Don't say 'AY-oh'.",
+    "meaning": "Land of the long white cloud — the Māori name for New Zealand."
+  },
+  "Wai-O-Tapu": {
+    "phonetic": "WAH-ee oh TAH-poo",
+    "audio_hint": "Three words, evenly stressed. 'Wai' sounds like 'why'. 'Tapu' rhymes with 'cuckoo'.",
+    "meaning": "Sacred waters."
+  },
+  "Tongariro": {
+    "phonetic": "TONG-ah-REE-roh",
+    "audio_hint": "Roll the 'r' lightly — it's flicked, not rolled like Spanish. Rhymes loosely with 'long-a-hero'.",
+    "meaning": "Carried away by the south wind — the mountain's name from a Ngāti Tūwharetoa story."
+  },
+  "Aoraki": {
+    "phonetic": "ah-oh-RAH-kee",
+    "audio_hint": "Four syllables. 'A-o' is two soft vowels, not 'ow'. Stress the third.",
+    "meaning": "Cloud piercer — the bilingual name for Mount Cook, gifted by Ngāi Tahu."
+  },
+  "Hokitika": {
+    "phonetic": "ho-kee-TEE-kah",
+    "audio_hint": "Four syllables, stress on the third. Soft 't', short 'a' at the end.",
+    "meaning": "Origin debated — most often glossed as 'place of the migration return'."
+  },
+  "Waiheke": {
+    "phonetic": "wai-HEH-keh",
+    "audio_hint": "Three syllables. 'Wai' as in 'why'. Final 'e' is short, like 'eh' in 'pet'.",
+    "meaning": "Cascading waters."
+  },
+  "Cape Reinga": {
+    "phonetic": "kape RAY-ing-ah",
+    "audio_hint": "'Reinga' is three syllables, with a soft 'ng' as in 'singer'. Don't say 'reen-ga'.",
+    "meaning": "Cape of the underworld leaping place. The fuller Māori name is Te Rerenga Wairua."
+  },
+  "Te Rerenga Wairua": {
+    "phonetic": "teh REH-reng-ah why-ROO-ah",
+    "audio_hint": "Four words run together. 'Wairua' is 'spirit' — the place where spirits depart.",
+    "meaning": "The leaping place of spirits — the Māori name for Cape Reinga."
+  },
+  "Piopiotahi": {
+    "phonetic": "PEE-oh-pee-oh-TAH-hee",
+    "audio_hint": "Five syllables — 'pee-oh' twice, then 'tah-hee'. Stress shifts to the fourth syllable.",
+    "meaning": "A single piopio bird — the Māori name for Milford Sound, after a now-extinct songbird."
+  },
+  "Tāmaki Makaurau": {
+    "phonetic": "TAH-mah-kee mah-KOH-rau",
+    "audio_hint": "The macron on the first 'ā' lengthens it — hold it slightly. 'Makaurau' is four syllables, stress the third.",
+    "meaning": "Tāmaki desired by many — the Māori name for Auckland."
+  },
+  "Ngāi Tahu": {
+    "phonetic": "NGAH-ee TAH-hoo",
+    "audio_hint": "'Ng' as in 'singer', not 'naai'. The principal South Island iwi.",
+    "meaning": "The principal iwi of the South Island."
+  },
+  "iwi": {
+    "phonetic": "EE-wee",
+    "audio_hint": "Two short syllables, stressed on the first.",
+    "meaning": "Tribe or people group — the largest unit of traditional Māori social organisation."
+  },
+  "Waikato": {
+    "phonetic": "WHY-kah-toh",
+    "audio_hint": "Three syllables. 'Wai' as in 'why'. Short final 'o'.",
+    "meaning": "The flowing water — name of Aotearoa's longest river and the surrounding region."
+  },
+  "Taupō": {
+    "phonetic": "TOH-poh",
+    "audio_hint": "Two syllables. Long 'o' at the end (the macron). Don't say 'TOW-poh'.",
+    "meaning": "Shortened from Taupō-nui-a-Tia: the great cloak of Tia. The lake and town in the central North Island."
+  },
+  "Tauranga": {
+    "phonetic": "TOH-rah-ngah",
+    "audio_hint": "Three syllables. The 'ng' is one sound, like 'singer'. Stress on the first."
+  },
+  "Rotorua": {
+    "phonetic": "roh-toh-ROO-ah",
+    "audio_hint": "Four syllables. 'Roto' = lake; 'rua' = two. Stress on the third syllable.",
+    "meaning": "Second lake — named by the explorer Ihenga as the second lake he found in the area."
+  },
+  "Whangārei": {
+    "phonetic": "fah-ngah-RAY",
+    "audio_hint": "'Wh' is /f/ in modern usage. The 'ng' is one sound. Stress falls on the final syllable."
+  },
+  "Whakatāne": {
+    "phonetic": "FAH-kah-TAH-neh",
+    "audio_hint": "Four syllables. 'Wh' as /f/. Long 'a' in the third syllable (the macron). Final 'e' as in 'pet'.",
+    "meaning": "To act as a man — from the legend of Wairaka, who pulled the Mātaatua waka safely to shore."
+  },
+  "Whanganui": {
+    "phonetic": "fah-ngah-NOO-ee",
+    "audio_hint": "Four syllables. 'Wh' as /f/ (locally sometimes silent — both are heard). 'Ng' as in 'singer'.",
+    "meaning": "Big harbour or great river — name of the river, town, and region."
+  },
+  "Taranaki": {
+    "phonetic": "TAH-rah-NAH-kee",
+    "audio_hint": "Four syllables, light stress on the first and third. Each vowel pronounced cleanly.",
+    "meaning": "Origin debated; one common gloss is 'shining peak'. The mountain, region, and iwi all share the name."
+  },
+  "Ōtautahi": {
+    "phonetic": "Oh-TAU-tah-hee",
+    "audio_hint": "Long 'O' (the macron) at the start. Four syllables; stress on the second.",
+    "meaning": "The place of Tautahi — the Te Reo name for Christchurch."
+  },
+  "Te Whanganui-a-Tara": {
+    "phonetic": "teh fah-ngah-NOO-ee ah TAH-rah",
+    "audio_hint": "Five run-together words. 'Wh' as /f/. 'Ng' as in 'singer'. Don't over-stress — let it flow.",
+    "meaning": "The great harbour of Tara — the Te Reo name for Wellington and its harbour."
+  },
+  "Pōneke": {
+    "phonetic": "POH-neh-keh",
+    "audio_hint": "Three syllables; long 'o' at the start (the macron). Final 'e' as in 'pet'.",
+    "meaning": "Te Reo transliteration of 'Port Nick' (Port Nicholson) — a common short Māori name for Wellington."
+  },
+  "Tāhuna": {
+    "phonetic": "TAH-hoo-nah",
+    "audio_hint": "Three syllables. Long 'a' at the start (the macron). Even pace.",
+    "meaning": "Shallow bay or shoal — the Te Reo name for Queenstown."
+  },
+  "Ōtepoti": {
+    "phonetic": "Oh-TEH-poh-tee",
+    "audio_hint": "Four syllables; long 'o' at the start (the macron). Stress on the second.",
+    "meaning": "The place of corner — the Te Reo name for Dunedin."
+  },
+  "Ahuriri": {
+    "phonetic": "ah-hoo-REE-ree",
+    "audio_hint": "Four syllables; gentle stress on the third. Each vowel pronounced cleanly.",
+    "meaning": "The Te Reo name for Napier — and specifically for the inner-harbour port precinct."
+  },
+  "Whakatū": {
+    "phonetic": "FAH-kah-TOO",
+    "audio_hint": "Three syllables. 'Wh' as /f/. Long 'u' at the end (the macron).",
+    "meaning": "To erect or establish — the Te Reo name for Nelson."
+  }
+}

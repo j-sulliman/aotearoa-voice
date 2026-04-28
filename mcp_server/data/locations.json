@@ -1,0 +1,756 @@
+[
+  {
+    "id": "wai-o-tapu",
+    "name": "Wai-O-Tapu",
+    "name_en": "Wai-O-Tapu Thermal Wonderland",
+    "name_mi": "Wai-O-Tapu",
+    "region": "Rotorua",
+    "lat": -38.3567,
+    "lng": 176.3672,
+    "themes": ["nature", "history"],
+    "hero_image": "/images/locations/wai-o-tapu.jpg",
+    "description": "Wai-O-Tapu sits south of Rotorua and is one of the most colourful geothermal landscapes anywhere on Earth. Boiling mud pools, citrus-bright crater lakes and the Lady Knox Geyser sit inside a walking-loop volcanic park. The Māori name means 'sacred waters' — the area was used by local iwi for centuries before tourism arrived.",
+    "things_to_do": [
+      "Walk the three signposted loops (30, 45, 75 minutes)",
+      "Catch the 10:15am Lady Knox Geyser eruption",
+      "Photograph the Champagne Pool — the colours are not edited",
+      "Visit the nearby Mud Pool just before sunset"
+    ],
+    "best_season": "Year-round; mornings are quieter and the steam is more dramatic in cooler months.",
+    "transit_context": "Roughly 30 minutes south of Rotorua by car on SH5. No public transport — rental car or organised tour from Rotorua.",
+    "nearby": {
+      "food": [
+        {"name": "Eat Streat Rotorua", "note": "Restaurant strip in town with covered awning and underground geothermal heating."},
+        {"name": "Te Whekau Cafe", "note": "Casual lakeside cafe on the way back into Rotorua."}
+      ],
+      "accommodation": [
+        {"name": "Rotorua town centre hotels", "note": "Best base — 30 minutes drive from Wai-O-Tapu, full range of options."},
+        {"name": "Waikite Valley Thermal Pools campground", "note": "Camp site with private hot pools, 10 minutes from Wai-O-Tapu."}
+      ],
+      "walks": [
+        {"name": "Rainbow Mountain Track", "note": "1–3 hour climb just up the road, summit views over the geothermal area."},
+        {"name": "Kerosene Creek", "note": "Free natural hot stream 10 minutes drive away — popular with locals."}
+      ]
+    }
+  },
+  {
+    "id": "tongariro-crossing",
+    "name": "Tongariro Alpine Crossing",
+    "name_en": "Tongariro Alpine Crossing",
+    "name_mi": "Tongariro",
+    "region": "Central Plateau",
+    "lat": -39.1370,
+    "lng": 175.6510,
+    "themes": ["nature"],
+    "hero_image": "/images/locations/tongariro.jpg",
+    "description": "Often called the best one-day walk in the world, the Tongariro Alpine Crossing traverses 19.4 kilometres of active volcanic terrain inside a dual UNESCO World Heritage area. You'll cross old lava flows, skirt the Emerald Lakes, and look down on the Red Crater. Tongariro is a tapu mountain — the walk gives the summit cone a wide and respectful berth.",
+    "things_to_do": [
+      "Start before 8am to beat the afternoon clouds",
+      "Photograph the Emerald Lakes from the Red Crater rim",
+      "Use the shuttle service — it's a one-way walk",
+      "Pack alpine layers even in summer; weather changes fast"
+    ],
+    "best_season": "November to April. The crossing is an alpine route in winter and requires guides plus crampons.",
+    "transit_context": "Shuttles run from National Park Village, Whakapapa, and Taupō. The walk is one-way so a shuttle is essentially mandatory.",
+    "nearby": {
+      "food": [
+        {"name": "Station Cafe, National Park", "note": "Classic before-and-after walker stop. Big breakfasts."},
+        {"name": "Schnapps Bar, National Park", "note": "Pub food and pints, good for a post-walk beer."}
+      ],
+      "accommodation": [
+        {"name": "Skotel Alpine Resort, Whakapapa", "note": "Closest hotel to the start; book months ahead in summer."},
+        {"name": "National Park Village motels", "note": "Cluster of small motels and lodges, well-served by shuttles."}
+      ],
+      "walks": [
+        {"name": "Taranaki Falls Loop", "note": "2-hour walk near Whakapapa Village — easy alternative if the crossing is closed."},
+        {"name": "Tama Lakes Track", "note": "5–6 hour return to two crater lakes; quieter than the crossing."}
+      ]
+    }
+  },
+  {
+    "id": "aoraki",
+    "name": "Aoraki / Mount Cook",
+    "name_en": "Mount Cook",
+    "name_mi": "Aoraki",
+    "region": "South Island Alps",
+    "lat": -43.5950,
+    "lng": 170.1418,
+    "themes": ["nature"],
+    "hero_image": "/images/locations/aoraki.jpg",
+    "description": "Aoraki is the tallest mountain in Aotearoa at 3,724 metres — and a tipuna, an ancestor, to Ngāi Tahu. The bilingual name reflects an official 1998 Treaty of Waitangi settlement. The valley below is a dark sky reserve, and the Hooker Valley track is one of the country's most accessible alpine walks.",
+    "things_to_do": [
+      "Walk the Hooker Valley Track to the glacial lake (3 hours return)",
+      "Stay overnight for stargazing — the valley is an international dark sky reserve",
+      "Visit the Sir Edmund Hillary Alpine Centre at The Hermitage",
+      "Take a scenic flight over the Tasman Glacier if the weather is clear"
+    ],
+    "best_season": "December to March for walks; July to September for snow and stargazing.",
+    "transit_context": "About 4.5 hours by car from Christchurch via Lake Tekapo. Limited bus services — most visitors drive or join a tour.",
+    "nearby": {
+      "food": [
+        {"name": "Old Mountaineers' Cafe", "note": "Climber's cafe at Mount Cook Village — generous portions, photo-lined walls."},
+        {"name": "The Hermitage Panorama Room", "note": "Restaurant with full Aoraki views; book ahead at sunset."}
+      ],
+      "accommodation": [
+        {"name": "The Hermitage Hotel", "note": "Iconic lodge at the head of the valley — rooms vary in price and view."},
+        {"name": "Aoraki/Mount Cook Alpine Lodge", "note": "Smaller and more affordable, still walking distance to trailheads."}
+      ],
+      "walks": [
+        {"name": "Hooker Valley Track", "note": "The signature walk — three swing bridges and the lake at the end."},
+        {"name": "Sealy Tarns Track", "note": "Steep stairs up to alpine tarns; the harder cousin to Hooker Valley."}
+      ]
+    }
+  },
+  {
+    "id": "hokitika",
+    "name": "Hokitika",
+    "name_en": "Hokitika",
+    "name_mi": "Hokitika",
+    "region": "West Coast",
+    "lat": -42.7167,
+    "lng": 170.9667,
+    "themes": ["nature", "city", "history"],
+    "hero_image": "/images/locations/hokitika.jpg",
+    "description": "Hokitika is a small West Coast town with a 19th-century gold-rush past and a 21st-century pounamu (greenstone) trade. The driftwood beach, the glow worm dell after dark, and the gorge with its impossible turquoise water are the three things almost every visitor leaves with photos of.",
+    "things_to_do": [
+      "Visit the Hokitika Gorge — the blue is from glacial rock flour, not filters",
+      "Walk Hokitika Beach at sunset and find the famous driftwood sign",
+      "Step into the free Glow Worm Dell after dark on Tudor Street",
+      "Browse pounamu workshops on Tancred Street — buy from a Ngāi Tahu-licensed carver"
+    ],
+    "best_season": "October to April. The West Coast is rainy year-round; pack a jacket regardless.",
+    "transit_context": "On SH6, about 3 hours south of Greymouth or 7 hours from Christchurch via Arthur's Pass. The TranzAlpine train runs to Greymouth and pairs well with a hire car onward.",
+    "nearby": {
+      "food": [
+        {"name": "Stumpers Cafe & Bar", "note": "Long-running local pub with hearty meals and West Coast whitebait in season."},
+        {"name": "Fat Pipi Pizzas", "note": "Casual wood-fired pizza, often lined out the door at dinner."}
+      ],
+      "accommodation": [
+        {"name": "Beachfront Hotel Hokitika", "note": "Sea-facing rooms; sunsets straight off the Tasman."},
+        {"name": "Shining Star Beachfront Accommodation", "note": "Cabins and chalets with a small farmyard — good for families."}
+      ],
+      "walks": [
+        {"name": "Hokitika Gorge Walkway", "note": "30-minute loop on a swing bridge over the impossibly blue river."},
+        {"name": "Lake Kaniere Track", "note": "Forested lakeside walks 15 minutes inland; quiet midweek."}
+      ]
+    }
+  },
+  {
+    "id": "waiheke",
+    "name": "Waiheke Island",
+    "name_en": "Waiheke Island",
+    "name_mi": "Waiheke",
+    "region": "Auckland",
+    "lat": -36.8000,
+    "lng": 175.1000,
+    "themes": ["food", "nature", "city"],
+    "hero_image": "/images/locations/waiheke.jpg",
+    "description": "Waiheke is a 40-minute ferry ride from downtown Auckland and operates on a different clock to the city. Olive groves, vineyards on north-facing slopes, and a string of swimmable bays make it a day trip many visitors regret not staying longer on. The locals call it 'the island' as if there were no others.",
+    "things_to_do": [
+      "Vineyard-hop on the wine bus — Mudbrick, Cable Bay, Stonyridge",
+      "Swim at Onetangi Beach (long) or Palm Beach (sheltered)",
+      "Walk the Te Ara Hura coastal track — pick a 2-3 hour section",
+      "Catch the last ferry back at golden hour for the city skyline view"
+    ],
+    "best_season": "November to April for the beaches; vineyards and restaurants are open year-round.",
+    "transit_context": "Fullers and Sealink ferries from Auckland CBD's Queen's Wharf. 40 minutes passenger, ~1 hour vehicle. Local buses connect the main bays.",
+    "nearby": {
+      "food": [
+        {"name": "Mudbrick Vineyard", "note": "Hilltop restaurant with city skyline views — the long-lunch classic."},
+        {"name": "The Oyster Inn, Oneroa", "note": "Small dining room and oyster bar in the main village; book ahead."}
+      ],
+      "accommodation": [
+        {"name": "Oneroa village apartments", "note": "Most central — walk to the beach, restaurants, and ferry bus."},
+        {"name": "Delamore Lodge", "note": "Boutique luxury with Hauraki Gulf views; splurge territory."}
+      ],
+      "walks": [
+        {"name": "Te Ara Hura — Matiatia to Oneroa", "note": "1.5-hour cliff-top section right from the ferry terminal."},
+        {"name": "Stony Batter Historic Reserve", "note": "World War II tunnels and headland walks at the island's east end."}
+      ]
+    }
+  },
+  {
+    "id": "cape-reinga",
+    "name": "Cape Reinga",
+    "name_en": "Cape Reinga",
+    "name_mi": "Te Rerenga Wairua",
+    "region": "Far North",
+    "lat": -34.4264,
+    "lng": 172.6810,
+    "themes": ["nature", "history"],
+    "hero_image": "/images/locations/cape-reinga.jpg",
+    "description": "Cape Reinga sits at the very top of Aotearoa, where the Tasman Sea and Pacific Ocean meet in a visible churn of currents. In Māori belief it is Te Rerenga Wairua — the leaping place of spirits, where the souls of the dead depart for Hawaiki. It deserves to be visited quietly.",
+    "things_to_do": [
+      "Walk down to the lighthouse and watch the two oceans collide",
+      "Drive Ninety Mile Beach southbound (only with a 4WD or guided tour)",
+      "Visit Te Paki sand dunes and rent a boogie board",
+      "Stop at the giant Te Hāpua kauri on the way north"
+    ],
+    "best_season": "November to April. The Far North is warm year-round but coastal wind picks up in winter.",
+    "transit_context": "About 1 hour 45 from Kaitāia by sealed road. Most visitors come from the Bay of Islands as a long day trip or stay in Kaitāia overnight.",
+    "nearby": {
+      "food": [
+        {"name": "Tales of the Tail, Kaitāia", "note": "Fish and chips done well — the practical pre-Cape lunch stop."},
+        {"name": "Mangonui Fish Shop", "note": "Iconic harbourside fish-and-chip shop on the way north from Kerikeri."}
+      ],
+      "accommodation": [
+        {"name": "Kaitāia motels", "note": "Most northern town with a full range of motels — 1.5 hours from the cape."},
+        {"name": "Waitiki Landing", "note": "The closest stay to the cape; a campground and basic cabins."}
+      ],
+      "walks": [
+        {"name": "Cape Reinga Coastal Walk", "note": "Multi-day option south to Te Paki; or just the 1-hour cape circuit."},
+        {"name": "Te Paki Stream Track", "note": "Walk through a sandy streambed to the dunes — surreal landscape."}
+      ]
+    }
+  },
+  {
+    "id": "milford-sound",
+    "name": "Milford Sound / Piopiotahi",
+    "name_en": "Milford Sound",
+    "name_mi": "Piopiotahi",
+    "region": "Fiordland",
+    "lat": -44.6710,
+    "lng": 167.9270,
+    "themes": ["nature"],
+    "hero_image": "/images/locations/milford-sound.jpg",
+    "description": "Piopiotahi was carved by glaciers and is now reached by a road that is itself a sightseeing event. Mitre Peak rises 1,692 metres straight from the water. Rain — and there is a lot of it — turns every cliff face into a temporary waterfall. It rewards visitors who slow down.",
+    "things_to_do": [
+      "Take a 1.5–2 hour boat cruise out to the Tasman Sea",
+      "Stop on the Milford Road at The Chasm and Mirror Lakes",
+      "Kayak in the early morning before the cruise boats start",
+      "Visit the Milford Discovery Centre underwater observatory"
+    ],
+    "best_season": "October to April for milder driving; rain photography is best year-round.",
+    "transit_context": "About 2 hours from Te Anau on the Milford Road (SH94). Buses run from Queenstown and Te Anau. The drive itself is the main event — allow stops.",
+    "nearby": {
+      "food": [
+        {"name": "Milford Sound Lodge cafe", "note": "The only meaningful food stop close to the sound itself."},
+        {"name": "Te Anau township restaurants", "note": "Stock up here before the drive — limited options past Te Anau."}
+      ],
+      "accommodation": [
+        {"name": "Milford Sound Lodge", "note": "The only accommodation right at the sound — book months ahead."},
+        {"name": "Te Anau motels and lakefront hotels", "note": "Most visitors stay in Te Anau and drive in for the day."}
+      ],
+      "walks": [
+        {"name": "Key Summit Track", "note": "3-hour return on the Milford Road — alpine views without the crowds."},
+        {"name": "Lake Marian Track", "note": "Full-day walk to a hanging valley lake — well-marked but steep."}
+      ]
+    }
+  },
+  {
+    "id": "tamaki-makaurau",
+    "name": "Tāmaki Makaurau (Auckland)",
+    "name_en": "Auckland",
+    "name_mi": "Tāmaki Makaurau",
+    "region": "Auckland",
+    "lat": -36.8485,
+    "lng": 174.7633,
+    "themes": ["city", "food", "history"],
+    "hero_image": "/images/locations/tamaki-makaurau.jpg",
+    "description": "Tāmaki Makaurau means 'Tāmaki desired by many' — and its 53 volcanic cones, two harbours, and warm-climate beaches explain why. Auckland is a Polynesian city as much as it is a colonial one, with the largest Polynesian population of any city in the world. It rewards visitors who get out of the CBD.",
+    "things_to_do": [
+      "Walk up Maungawhau (Mount Eden) at sunrise for a 360° city view",
+      "Eat your way through K' Road and the Karangahape food laneways",
+      "Take the ferry to Devonport for a half-day from the CBD",
+      "Visit Auckland War Memorial Museum on the Domain — the Pacific gallery in particular"
+    ],
+    "best_season": "Year-round. Summer (December–March) for beaches; the city itself is comfortable in any season.",
+    "transit_context": "Auckland International Airport is the main gateway to Aotearoa. The train and inner-city link buses cover most of the central city.",
+    "nearby": {
+      "food": [
+        {"name": "Cassia, CBD", "note": "Modern Indian; one of Auckland's most awarded restaurants."},
+        {"name": "Hawker Hawker, Karangahape Road", "note": "Casual Southeast Asian street food, late-night friendly."}
+      ],
+      "accommodation": [
+        {"name": "QT Auckland Viaduct", "note": "Design-forward hotel by the harbour — walking distance to the ferry terminal."},
+        {"name": "Hotel DeBrett, CBD", "note": "Boutique hotel in a restored heritage building, central but quiet."}
+      ],
+      "walks": [
+        {"name": "Coast to Coast Walkway", "note": "16km city walk from Waitematā to Manukau Harbour, mostly through parks and volcanic cones."},
+        {"name": "Rangitoto Island Summit Track", "note": "Day trip — ferry plus 1-hour climb to a 600-year-old volcanic summit."}
+      ]
+    }
+  },
+  {
+    "id": "waikato",
+    "name": "Waikato",
+    "name_en": "Waikato",
+    "name_mi": "Waikato",
+    "region": "Waikato",
+    "lat": -37.787,
+    "lng": 175.2793,
+    "themes": ["nature", "food", "history"],
+    "hero_image": "/images/locations/waikato.jpg",
+    "description": "The Waikato is a wide, fertile region centred on Aotearoa's longest river. Hamilton — Kirikiriroa in Te Reo — sits in the middle of dairy country and is the launchpad for two of the country's most-photographed sights: Hobbiton in Matamata and the Waitomo Glow-worm Caves. Slow-paced compared to its neighbours, by design.",
+    "things_to_do": [
+      "Tour Hobbiton Movie Set in Matamata — the actual Lord of the Rings shire",
+      "Boat through the Waitomo Glow-worm Caves at dusk",
+      "Wander Hamilton Gardens — themed gardens running from Italian Renaissance to Māori",
+      "Cycle a section of Te Awa River Ride along the Waikato"
+    ],
+    "best_season": "Year-round; spring (Sep–Nov) for green pastures.",
+    "transit_context": "Roughly 1.5 hours south of Auckland on SH1. Hamilton has frequent buses from Auckland and Wellington.",
+    "nearby": {
+      "food": [
+        {"name": "Riverside Cafe, Hamilton", "note": "Long-running brunch spot overlooking the Waikato River."},
+        {"name": "Mr Pickles, Hamilton", "note": "Casual modern pub food in the Victoria Street strip."}
+      ],
+      "accommodation": [
+        {"name": "Hamilton CBD hotels", "note": "Best base — full range of options, walking distance to the river."},
+        {"name": "Hobbiton Lodge, Matamata", "note": "On-site at the Hobbiton set; book months ahead in summer."}
+      ],
+      "walks": [
+        {"name": "Te Aroha summit", "note": "3-hour return climb up Mt Te Aroha; views over the Hauraki Plains."},
+        {"name": "Hakarimata Walkway", "note": "Steep but short forest climb near Ngāruawāhia, with kauri."}
+      ]
+    }
+  },
+  {
+    "id": "taupo",
+    "name": "Taupō",
+    "name_en": "Lake Taupō",
+    "name_mi": "Taupō-nui-a-Tia",
+    "region": "Central Plateau",
+    "lat": -38.6857,
+    "lng": 176.0702,
+    "themes": ["nature"],
+    "hero_image": "/images/locations/taupo.jpg",
+    "description": "Taupō sits on the shore of Aotearoa's largest lake — a caldera left by a supervolcanic eruption around 1,800 years ago. Crystal-clear water, world-class trout fishing, geothermal hot springs along the river, and the natural staging post for a Tongariro climb.",
+    "things_to_do": [
+      "Cruise to the Mine Bay Māori rock carvings — only reachable by boat",
+      "Walk to Huka Falls — 220,000 litres a second through a 15m gorge",
+      "Soak at Spa Park's free natural hot stream beside the Waikato River",
+      "Try a tandem skydive — Taupō is one of the cheapest skydive spots in the country"
+    ],
+    "best_season": "Year-round; summer for swimming, winter for crisp air and clearer skies.",
+    "transit_context": "Roughly 3 hours from Auckland on SH1, 4 hours from Wellington. Small regional airport with flights from Auckland.",
+    "nearby": {
+      "food": [
+        {"name": "Pauly's Diner, Taupō", "note": "Lakefront breakfast/brunch institution."},
+        {"name": "Plateau Restaurant, Taupō", "note": "Modern NZ in town; good wine list, book ahead at weekends."}
+      ],
+      "accommodation": [
+        {"name": "Hilton Lake Taupō", "note": "Heritage building on the lakeshore — best for a splurge."},
+        {"name": "Taupō lakefront motels", "note": "Plenty along Lake Terrace with pools and easy walking access to town."}
+      ],
+      "walks": [
+        {"name": "Huka Falls Walkway", "note": "1-hour return along the Waikato River from town to the falls."},
+        {"name": "Mt Tauhara summit", "note": "3-hour return climb on the eastern side of town; full lake panorama."}
+      ]
+    }
+  },
+  {
+    "id": "tauranga",
+    "name": "Tauranga",
+    "name_en": "Tauranga",
+    "name_mi": "Tauranga",
+    "region": "Bay of Plenty",
+    "lat": -37.6878,
+    "lng": 176.1651,
+    "themes": ["city", "food", "nature"],
+    "hero_image": "/images/locations/tauranga.jpg",
+    "description": "Tauranga and its iconic Mount Maunganui — Mauao — define the Bay of Plenty. Wide white-sand beaches, a sunny microclimate, surf breaks rolling in off the Pacific, and the country's largest port hidden behind a green volcanic plug. The Mount itself is the photo every Kiwi has on their camera roll.",
+    "things_to_do": [
+      "Climb Mauao at sunrise — 45 minutes up, the whole bay laid out below",
+      "Surf or swim at Mount Main Beach — patrolled, 3km of sand",
+      "Walk the Mauao base track — 45 minutes around the headland at sea level",
+      "Cycle the harbour-side path from Tauranga to Mt Maunganui across the bridge"
+    ],
+    "best_season": "November to April for beach time; the Mount climb is year-round.",
+    "transit_context": "About 2.5 hours from Auckland by car. Tauranga Airport has direct flights from Auckland, Wellington, and Christchurch.",
+    "nearby": {
+      "food": [
+        {"name": "Macau, Tauranga", "note": "Modern Asian fusion in the harbourside Strand precinct."},
+        {"name": "Rising Tide, Mt Maunganui", "note": "Beachfront breakfast spot; queues out the door on weekends."}
+      ],
+      "accommodation": [
+        {"name": "Trinity Wharf Hotel, Tauranga", "note": "Modern hotel right on the harbour with a pool."},
+        {"name": "Mount Maunganui beachfront motels", "note": "Several within a 5-minute walk of Main Beach — book early in summer."}
+      ],
+      "walks": [
+        {"name": "Mauao base track", "note": "Easy 45-minute coastal loop around the headland."},
+        {"name": "Papamoa Hills Cultural Heritage Park", "note": "1.5-hour ridgeline walk through ancient pā sites."}
+      ]
+    }
+  },
+  {
+    "id": "rotorua",
+    "name": "Rotorua",
+    "name_en": "Rotorua",
+    "name_mi": "Rotorua",
+    "region": "Bay of Plenty",
+    "lat": -38.1368,
+    "lng": 176.2497,
+    "themes": ["history", "city", "nature"],
+    "hero_image": "/images/locations/rotorua.jpg",
+    "description": "Rotorua is the country's geothermal heart and its most accessible introduction to Māori culture. Steam drifts up from streetside drains, the lake's edge bubbles, and the air carries the unmistakable sulphur smell. Te Arawa iwi have lived alongside the geothermal forces for centuries — their cultural performances and ngāwhā (hot pools) are the city's defining experience.",
+    "things_to_do": [
+      "Visit Te Puia or Whakarewarewa Living Village — Māori cultural centres around active geysers",
+      "Soak at Polynesian Spa on the lake's edge — separate adult and family pools",
+      "Mountain bike the Whakarewarewa Forest (Redwoods) — world-class trails through giant Californian redwoods",
+      "Take the Skyline gondola up Mount Ngongotahā for the luge and the view"
+    ],
+    "best_season": "Year-round; cooler months make the geothermal steam more dramatic.",
+    "transit_context": "About 3 hours from Auckland on SH1/SH5. Rotorua Airport has direct flights from Auckland, Wellington, and Christchurch.",
+    "nearby": {
+      "food": [
+        {"name": "Eat Streat", "note": "Covered restaurant strip in the centre of town with underground geothermal heating."},
+        {"name": "Atticus Finch", "note": "Modern Mediterranean small plates, generous portions, in the centre."}
+      ],
+      "accommodation": [
+        {"name": "Pullman Rotorua", "note": "Best central full-service hotel; lake views from upper floors."},
+        {"name": "Lakefront motels", "note": "Cluster along Lake Road — most have private hot pools fed from the geothermal field."}
+      ],
+      "walks": [
+        {"name": "Lake Rotorua trail", "note": "Easy 26km loop around the lake — do a section, or rent a bike."},
+        {"name": "Redwoods Treewalk", "note": "Suspended walkway through the redwood canopy — magical at dusk with lights."}
+      ]
+    }
+  },
+  {
+    "id": "whangarei",
+    "name": "Whangārei",
+    "name_en": "Whangārei",
+    "name_mi": "Whangārei",
+    "region": "Northland",
+    "lat": -35.7269,
+    "lng": 174.3253,
+    "themes": ["city", "nature", "food"],
+    "hero_image": "/images/locations/whangarei.jpg",
+    "description": "Northland's only city. Sub-tropical, harbour-fronted, and the staging post for everything north of Auckland. The Town Basin marina is a small-but-good food and art precinct, and the Hundertwasser Art Centre — opened in 2022 — is the region's most distinctive piece of architecture.",
+    "things_to_do": [
+      "Walk to Whangārei Falls — short loop through native bush to a 26m drop",
+      "Visit the Hundertwasser Art Centre and Wairau Māori Art Gallery in the Town Basin",
+      "Climb Mount Manaia — steep 90-minute return for harbour views",
+      "Drive 30 minutes to Tutukaka for diving the Poor Knights Islands"
+    ],
+    "best_season": "Year-round; sub-tropical even in winter, summer (Dec–Feb) for swimming and diving.",
+    "transit_context": "About 2 hours north of Auckland on SH1. Whangārei has a small regional airport.",
+    "nearby": {
+      "food": [
+        {"name": "Killer Prawn", "note": "Long-running waterfront restaurant; the prawn dish it's named after is the order."},
+        {"name": "Vinyl Café, Town Basin", "note": "Casual brunch by the marina, good coffee."}
+      ],
+      "accommodation": [
+        {"name": "Distinction Hotel Whangārei", "note": "Central, walkable to the Town Basin."},
+        {"name": "Town Basin apartments", "note": "Self-contained units overlooking the marina."}
+      ],
+      "walks": [
+        {"name": "Whangārei Falls Loop", "note": "20-minute easy loop through bush to the falls."},
+        {"name": "Mount Manaia summit", "note": "1.5-hour return; steep but short, with chains on the upper section."}
+      ]
+    }
+  },
+  {
+    "id": "whakatane",
+    "name": "Whakatāne",
+    "name_en": "Whakatāne",
+    "name_mi": "Whakatāne",
+    "region": "Bay of Plenty",
+    "lat": -37.9582,
+    "lng": 176.9967,
+    "themes": ["nature", "history"],
+    "hero_image": "/images/locations/whakatane.jpg",
+    "description": "Whakatāne is officially the sunniest town in the country and one of the most Māori — Mātaatua iwi sit at the heart of it. The river mouth, the cliffs, and the long curve of Ohope Beach (often voted Aotearoa's best) are the draw. Whakaari/White Island sits offshore, though tours haven't run since the 2019 eruption.",
+    "things_to_do": [
+      "Walk Ohope Beach — 11km of sand, 10 minutes drive from town",
+      "Climb the Kohi Point Walkway from town to Ohope along the clifftops",
+      "Visit Te Whare Taonga o Taketake — the Whakatāne Museum, strong on local Māori history",
+      "Kayak or jet boat up the Whakatāne River into the gorge"
+    ],
+    "best_season": "Spring through autumn; summer for the beach.",
+    "transit_context": "About 1 hour east of Rotorua, 90 minutes from Tauranga. Small regional airport with flights from Auckland.",
+    "nearby": {
+      "food": [
+        {"name": "The Stage Door Cafe", "note": "Long-running brunch institution off The Strand."},
+        {"name": "Roquette Restaurant", "note": "Modern NZ on The Strand; reliably good for dinner."}
+      ],
+      "accommodation": [
+        {"name": "Beachpoint Resort, Ohope", "note": "Apartments fronting Ohope Beach — best base if you want sand and sun."},
+        {"name": "Whakatāne Hotel", "note": "Heritage hotel in the centre of town, walkable to everything."}
+      ],
+      "walks": [
+        {"name": "Otarawairere Beach loop", "note": "1.5-hour clifftop loop from Ohope — hidden beach reveal halfway."},
+        {"name": "Kohi Point Walkway", "note": "3-hour clifftop walk from town to Ohope, or section of it."}
+      ]
+    }
+  },
+  {
+    "id": "whanganui",
+    "name": "Whanganui",
+    "name_en": "Whanganui",
+    "name_mi": "Whanganui",
+    "region": "Manawatū-Whanganui",
+    "lat": -39.9301,
+    "lng": 175.0479,
+    "themes": ["history", "nature", "city"],
+    "hero_image": "/images/locations/whanganui.jpg",
+    "description": "Whanganui is a Victorian river town with a slow, distinctive heart. The Whanganui River — Te Awa Tupua — was the first river anywhere in the world to be granted legal personhood, recognised in 2017 as a living being with the same rights as a person. The town reflects that relationship: small galleries, riverside walks, and a heritage main street.",
+    "things_to_do": [
+      "Ride the Durie Hill Elevator — a 1919 underground tunnel and lift up to a memorial tower",
+      "Visit the Sarjeant Gallery — one of NZ's strongest regional art collections",
+      "Walk or cycle the riverside path from the town through to Aramoho",
+      "Paddle a section of the Whanganui Journey — multi-day canoe trip on the river"
+    ],
+    "best_season": "Year-round; the river is most paddleable Oct–April.",
+    "transit_context": "About 2.5 hours by car from Wellington on SH3. Small airport with flights from Auckland.",
+    "nearby": {
+      "food": [
+        {"name": "Caroline's Boatshed", "note": "Restaurant on the river bank — book ahead, especially in summer."},
+        {"name": "Mint Café", "note": "Reliable brunch spot in the heritage main street."}
+      ],
+      "accommodation": [
+        {"name": "Rutland Arms Inn", "note": "Heritage hotel above an English-style pub in the centre."},
+        {"name": "Aotea Motor Lodge", "note": "Comfortable modern motel within walking distance of town."}
+      ],
+      "walks": [
+        {"name": "Bushy Park Sanctuary", "note": "Predator-fenced reserve 30 minutes drive away — kiwi and saddleback."},
+        {"name": "Bason Botanic Gardens", "note": "Free gardens 15 minutes drive west of town — good loop walks."}
+      ]
+    }
+  },
+  {
+    "id": "taranaki",
+    "name": "Taranaki",
+    "name_en": "Taranaki / New Plymouth",
+    "name_mi": "Taranaki",
+    "region": "Taranaki",
+    "lat": -39.2965,
+    "lng": 174.0644,
+    "themes": ["nature", "city"],
+    "hero_image": "/images/locations/taranaki.jpg",
+    "description": "Mount Taranaki is a near-perfect cone — the kind of mountain children draw. Standing 2,518m above the Taranaki coast, it dominates everything. The surrounding Egmont National Park has alpine walks for every fitness level, the city of New Plymouth has one of NZ's best contemporary art galleries, and the Surf Highway runs the dark-sand coast.",
+    "things_to_do": [
+      "Walk the Pouakai Crossing — 19km full-day alpine traverse around the mountain",
+      "Visit the Govett-Brewster Art Gallery / Len Lye Centre in New Plymouth",
+      "Walk the New Plymouth Coastal Walkway — 13km flat seafront path",
+      "Loop the Wilkies Pools track — 1-hour family-friendly forest walk"
+    ],
+    "best_season": "November to April for alpine walks. The mountain has weather year-round; pack layers.",
+    "transit_context": "About 5 hours by car from Auckland or 4 from Wellington. New Plymouth has direct flights from Auckland, Wellington, and Christchurch.",
+    "nearby": {
+      "food": [
+        {"name": "Snug Lounge, New Plymouth", "note": "Late-night cocktail and small-plates bar — quiet but excellent."},
+        {"name": "Federal Store", "note": "Casual all-day cafe with consistent breakfast."}
+      ],
+      "accommodation": [
+        {"name": "Plymouth International Hotel", "note": "Most central full-service hotel in New Plymouth."},
+        {"name": "Dawson Falls Mountain Lodge", "note": "Inside the National Park — the closest stay to the alpine walks."}
+      ],
+      "walks": [
+        {"name": "Pouakai Crossing", "note": "The signature Taranaki day walk — full day, alpine, photogenic."},
+        {"name": "Wilkies Pools Loop", "note": "Easy hour-long loop in the rainforest near Dawson Falls."}
+      ]
+    }
+  },
+  {
+    "id": "otautahi",
+    "name": "Ōtautahi (Christchurch)",
+    "name_en": "Christchurch",
+    "name_mi": "Ōtautahi",
+    "region": "Canterbury",
+    "lat": -43.532,
+    "lng": 172.6306,
+    "themes": ["city", "history", "food"],
+    "hero_image": "/images/locations/otautahi.jpg",
+    "description": "Christchurch is rebuilding — a decade and a half after the 2011 earthquake, the result is a thoughtful, deliberately replanted Garden City. Modern timber architecture sits alongside heritage stone; the Avon River winds through the centre; the Banks Peninsula and the Southern Alps are both an hour away. The South Island's main international gateway.",
+    "things_to_do": [
+      "Walk through the Botanic Gardens — 21 hectares in the heart of town",
+      "Visit the Cardboard Cathedral — temporary church that became permanent",
+      "Eat your way through Riverside Market — best single food destination in the city",
+      "Punt on the Avon, then take a tram around the rebuilt centre",
+      "Day trip to Akaroa on Banks Peninsula — French-influenced harbour village"
+    ],
+    "best_season": "Spring (Sep–Nov) for the gardens, autumn (Mar–May) for clear skies and colour.",
+    "transit_context": "Christchurch International Airport is the main South Island gateway. Walking-friendly central city, with trams and free city buses.",
+    "nearby": {
+      "food": [
+        {"name": "Riverside Market", "note": "Multi-stall food hall in a beautiful heritage shell."},
+        {"name": "Twenty Seven Steps", "note": "Modern NZ above New Regent Street — book ahead."}
+      ],
+      "accommodation": [
+        {"name": "The George Christchurch", "note": "Boutique hotel facing Hagley Park — long the city's best."},
+        {"name": "Sudima City Christchurch", "note": "Modern central hotel; reliable mid-range option."}
+      ],
+      "walks": [
+        {"name": "Bridle Path, Lyttelton", "note": "1.5-hour climb from Heathcote Valley to Lyttelton over the Port Hills."},
+        {"name": "Port Hills tracks", "note": "Network of trails behind the city; pick a section, panoramic views."}
+      ]
+    }
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington",
+    "name_en": "Wellington",
+    "name_mi": "Te Whanganui-a-Tara",
+    "region": "Wellington",
+    "lat": -41.2865,
+    "lng": 174.7762,
+    "themes": ["city", "food", "history"],
+    "hero_image": "/images/locations/wellington.jpg",
+    "description": "Aotearoa's compact, opinionated capital. Wellington — Te Whanganui-a-Tara, 'the great harbour of Tara' — sits in a near-perfect amphitheatre of green hills around an enormous harbour. Famous for coffee culture, the world-class Te Papa Tongarewa museum, government and parliament, and the wind. Easily the most walkable major city in the country.",
+    "things_to_do": [
+      "Spend half a day at Te Papa Tongarewa — six floors, free, world-class",
+      "Eat your way through Cuba Street and the Hannahs Laneway food precinct",
+      "Ride the Wellington Cable Car to the Botanic Gardens, walk back down through it",
+      "Visit Zealandia — predator-fenced sanctuary 10 minutes from town with kākā, takahē, tūī",
+      "Catch the Bluebridge or Interislander ferry across Cook Strait to the South Island"
+    ],
+    "best_season": "November to April. The wind is famous; spring and autumn can be the most settled.",
+    "transit_context": "Wellington International Airport with direct flights from across NZ and Australia. Train and bus links north. 3-hour ferry to Picton for the South Island.",
+    "nearby": {
+      "food": [
+        {"name": "Logan Brown", "note": "Long-running modern NZ in a heritage banking hall — the special-occasion pick."},
+        {"name": "Fidel's Cafe, Cuba Street", "note": "Cuba Street brunch institution, open since the early '90s."}
+      ],
+      "accommodation": [
+        {"name": "QT Wellington", "note": "Boutique hotel on the harbourside; design-forward and central."},
+        {"name": "Bolton Hotel", "note": "Reliable mid-range with full kitchens, walking distance to parliament."}
+      ],
+      "walks": [
+        {"name": "Mt Victoria Lookout", "note": "1-hour return from the city, full panorama of harbour and city."},
+        {"name": "City to Sea Walkway", "note": "12km from the harbour to Island Bay along Wellington's spine."}
+      ]
+    }
+  },
+  {
+    "id": "queenstown",
+    "name": "Queenstown",
+    "name_en": "Queenstown",
+    "name_mi": "Tāhuna",
+    "region": "Otago",
+    "lat": -45.0312,
+    "lng": 168.6626,
+    "themes": ["nature", "food"],
+    "hero_image": "/images/locations/queenstown.jpg",
+    "description": "Aotearoa's adventure capital, on the shore of Lake Whakatipu under the jagged Remarkables range. Bungy jumping was invented commercially here in 1988, and the town remains the gateway for skiing in winter, the Routeburn and Milford day trips, and the surrounding Central Otago wine country.",
+    "things_to_do": [
+      "Cruise Lake Whakatipu on the TSS Earnslaw — a coal-fired vintage steamship still in daily service",
+      "Take the Skyline gondola up Bob's Peak for the view, the luge, and dinner",
+      "Ski The Remarkables or Coronet Peak (Jun–Sep) — both within 30 minutes of town",
+      "Hike Ben Lomond — full-day return, 1,748m summit straight above town",
+      "Wine-taste in Gibbston Valley — the world's southernmost commercial wine region"
+    ],
+    "best_season": "June to September for ski; November to April for hiking, wine, and lake time.",
+    "transit_context": "Queenstown Airport with direct flights from major NZ and Australian cities. About 4 hours by car from Christchurch via the spectacular Lindis Pass.",
+    "nearby": {
+      "food": [
+        {"name": "Fergburger", "note": "The iconic queue is real — go off-peak. Burgers do live up to the hype."},
+        {"name": "Botswana Butchery", "note": "Lakefront fine dining; book ahead for a window table."}
+      ],
+      "accommodation": [
+        {"name": "Eichardt's Private Hotel", "note": "Heritage boutique hotel right on the lakefront; high-end."},
+        {"name": "QT Queenstown", "note": "Design-forward hotel on the lake just north of town."}
+      ],
+      "walks": [
+        {"name": "Tiki Trail", "note": "Steep 45-minute walk up to the Skyline gondola top — alternative to riding up."},
+        {"name": "Ben Lomond Track", "note": "Full-day, 1,438m climb to a true alpine summit. Serious — pack layers."}
+      ]
+    }
+  },
+  {
+    "id": "dunedin",
+    "name": "Dunedin",
+    "name_en": "Dunedin",
+    "name_mi": "Ōtepoti",
+    "region": "Otago",
+    "lat": -45.8788,
+    "lng": 170.5028,
+    "themes": ["city", "history", "nature"],
+    "hero_image": "/images/locations/dunedin.jpg",
+    "description": "Dunedin is Aotearoa's heritage city — Edwardian and Victorian architecture survives at a scale you don't see anywhere else in the country. The Otago Peninsula, fifteen minutes from town, holds yellow-eyed penguins, royal albatross, and fur seals, all viewable from public reserves. The University of Otago is the country's oldest, and the student culture gives the place its energy.",
+    "things_to_do": [
+      "Tour the Royal Albatross Centre and yellow-eyed penguin reserves on the Otago Peninsula",
+      "Walk Baldwin Street — by some measures the steepest residential street in the world (35% gradient)",
+      "Explore the heritage stone of the railway station, university quad, and First Church",
+      "Visit Larnach Castle — Aotearoa's only castle, on the Peninsula",
+      "Head to Tunnel Beach via the cliff-cut tunnel — best at low tide"
+    ],
+    "best_season": "Year-round; September to April for albatross and penguin viewing, autumn for clear skies.",
+    "transit_context": "Dunedin Airport with flights from Auckland, Wellington, Christchurch. About 4.5 hours by car south of Christchurch on SH1.",
+    "nearby": {
+      "food": [
+        {"name": "Plato Cafe", "note": "Long-running waterfront restaurant; quirky decor, consistent kitchen."},
+        {"name": "No 7 Balmac", "note": "Modern bistro in a heritage suburb; Otago wines done well."}
+      ],
+      "accommodation": [
+        {"name": "Larnach Lodge", "note": "Stay on the Larnach Castle grounds — limited rooms, book months ahead."},
+        {"name": "Distinction Dunedin", "note": "Central, walkable to the Octagon and the railway station."}
+      ],
+      "walks": [
+        {"name": "Tunnel Beach Walkway", "note": "45 minutes return through farmland to a tunnel-accessed cove."},
+        {"name": "Otago Peninsula coastal walks", "note": "Pick a section — Sandfly Bay, Allan's Beach, all 30-60 min."}
+      ]
+    }
+  },
+  {
+    "id": "napier",
+    "name": "Napier",
+    "name_en": "Napier",
+    "name_mi": "Ahuriri",
+    "region": "Hawke's Bay",
+    "lat": -39.4928,
+    "lng": 176.9120,
+    "themes": ["city", "food", "history"],
+    "hero_image": "/images/locations/napier.jpg",
+    "description": "Napier was levelled by a 1931 earthquake and rebuilt almost entirely in Art Deco — the largest concentration of 1930s architecture anywhere in the southern hemisphere. The surrounding Hawke's Bay is one of Aotearoa's two great wine regions (alongside Marlborough), and the Cape Kidnappers gannet colony just south is the largest mainland gannetry in the world.",
+    "things_to_do": [
+      "Walk the self-guided Art Deco trail — pick up a map at the Art Deco Centre",
+      "Wine-taste at Mission Estate (NZ's oldest winery), Craggy Range, or Te Mata",
+      "Visit Cape Kidnappers gannet colony — long beach walk or vehicle tour",
+      "Climb Te Mata Peak for the Hawke's Bay panorama",
+      "Time a visit for the Art Deco Festival in February — vintage cars, cocktail attire, the works"
+    ],
+    "best_season": "February to April for harvest events and Art Deco Festival; year-round for the architecture.",
+    "transit_context": "Hawke's Bay Airport, just north of Napier. About 4.5 hours by car from Wellington, 5 from Auckland.",
+    "nearby": {
+      "food": [
+        {"name": "Bistronomy", "note": "Napier's modern NZ flagship — local produce, Hawke's Bay wines."},
+        {"name": "Mister D", "note": "Long-running local institution; the doughnuts-and-syringes dessert is the photo."}
+      ],
+      "accommodation": [
+        {"name": "Masonic Hotel", "note": "Original Art Deco hotel on Marine Parade; rooms vary, ask about the heritage ones."},
+        {"name": "The Crown Hotel, Ahuriri", "note": "Boutique waterfront in the historic port precinct just north of town."}
+      ],
+      "walks": [
+        {"name": "Te Mata Peak", "note": "30-minute hike up from the carpark, or a longer loop. Big Hawke's Bay views."},
+        {"name": "Marine Parade walk", "note": "Easy seafront promenade past the Sound Shell and the gardens."}
+      ]
+    }
+  },
+  {
+    "id": "nelson",
+    "name": "Nelson",
+    "name_en": "Nelson",
+    "name_mi": "Whakatū",
+    "region": "Top of the South",
+    "lat": -41.2706,
+    "lng": 173.2840,
+    "themes": ["nature", "food", "city"],
+    "hero_image": "/images/locations/nelson.jpg",
+    "description": "Nelson — Whakatū — sits at the top of the South Island and reliably tops the country's annual sunshine charts (around 2,500 hours a year). The geographic centre of New Zealand is on a small hill above the town. Nelson is the gateway to Abel Tasman National Park and has a strong art-and-craft scene of its own; the Saturday Market is the country's largest.",
+    "things_to_do": [
+      "Spend a day in Abel Tasman National Park — kayak, water-taxi, or walk a section of the Coast Track",
+      "Browse the Nelson Saturday Market — the largest in the country, year-round",
+      "Visit the World of Wearable Art (WOW) Museum — the headline garments from the annual show",
+      "Walk to the Centre of New Zealand monument on Botanical Hill above town",
+      "Day trip to Nelson Lakes National Park — Lake Rotoiti, jetty photo, and walks"
+    ],
+    "best_season": "January to April for the Abel Tasman beaches and clear skies; year-round otherwise.",
+    "transit_context": "Nelson Airport with flights from Auckland, Wellington, Christchurch. About 2 hours by car from the Picton ferry terminal on SH6.",
+    "nearby": {
+      "food": [
+        {"name": "Hopgood's & Co", "note": "Long-running modern NZ in the centre — the dining room locals book first."},
+        {"name": "Indian Cafe", "note": "Casual Indian institution; reliable lunch."}
+      ],
+      "accommodation": [
+        {"name": "Rutherford Hotel Nelson", "note": "Largest central hotel; central location, walking distance to everything."},
+        {"name": "The Wakefield Quay House", "note": "Boutique B&B on the waterfront — book months ahead."}
+      ],
+      "walks": [
+        {"name": "Centre of New Zealand", "note": "30-minute return uphill walk from the Botanical Reserve to the marker."},
+        {"name": "Abel Tasman Coastal Track", "note": "Multi-day Great Walk, but day-walk-friendly with water-taxi pickup."}
+      ]
+    }
+  }
+]
