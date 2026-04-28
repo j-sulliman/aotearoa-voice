@@ -78,7 +78,12 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: aotearoa-cloudflared
     profiles: ["tunnel"]
-    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN:-}
+    # --edge-ip-version 4: avoids a recurring control-stream error on a
+    #   specific IPv6 edge IP from some networks (NZ/AU residential ISPs);
+    #   IPv4 is reliably reachable.
+    # --ha-connections 2: 2 redundant connections instead of the default 4 —
+    #   plenty for a demo's traffic profile and cuts log noise in half.
+    command: tunnel --no-autoupdate --edge-ip-version 4 --ha-connections 2 run --token ${CLOUDFLARE_TUNNEL_TOKEN:-}
     depends_on:
       - frontend
       - backend

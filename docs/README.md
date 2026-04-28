@@ -44,13 +44,15 @@ That gets you the cloned voice, the pronunciation dictionary firing on
 "Tāmaki Makaurau", a real tool call (`get_location_detail`), and the map
 panning to Auckland.
 
-## location-images/ (currently empty — paths reserved)
+## location-images/ (intentionally absent — forward-compat data field only)
 
 `mcp_server/data/locations.json` includes a `hero_image` field per location
-pointing to `/images/locations/<id>.jpg`. The current frontend (a hand-drawn
-canvas of NZ with red pins) doesn't display these — the field is reserved
-for any future UI that wants real photography.
+pointing to `/images/locations/<id>.jpg`. **The shipped frontend deliberately
+doesn't display these** — its design is a hand-drawn NZ canvas with red pins,
+which is the intentional aesthetic. The data field is kept as a forward-compat
+placeholder for any future UI that wants real photography; no images are
+shipped with the repo and the directory is intentionally absent.
 
-If you do source images later, the canonical location for them is
+If you fork this and want to add photography, the canonical location is
 `frontend/public/images/locations/<id>.jpg`. Use Unsplash or Pexels (CC0 /
 permissive) and add an `ATTRIBUTIONS.md` alongside.
