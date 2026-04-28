@@ -4,7 +4,7 @@
 
 ![Aotearoa Voice demo](docs/hero.gif)
 
-**The voice you're hearing is mine, cloned in ElevenLabs.** I'm an existing ElevenLabs subscriber — I've used voice cloning in production at [Summit53](https://summit53.io), the CRM I run as a solo developer-founder. This artefact extends that real customer use case into a public reference implementation for voice agents over MCP.
+**The voice you're hearing is mine, cloned in ElevenLabs.** I'm an existing ElevenLabs subscriber — I've used voice cloning in production at [Summit53](https://www.summit53.com), the CRM I run as a solo developer-founder. This artefact extends that real customer use case into a public reference implementation for voice agents over MCP.
 
 Hold the microphone, ask a Kiwi tour guide about Aotearoa, hear the answer back. Built end-to-end — voice frontend, Claude agent layer, MCP server with curated tour tools, deployed via Docker and Cloudflare Tunnel.
 
@@ -127,7 +127,6 @@ What's *not* production-grade in this demo, and what would change for a real cus
 | Cost controls | Generous demo budget + per-key credit caps | Per-tenant token / TTS-character budgets with fallbacks |
 | Failure handling | Inline error turns in the transcript | Structured error telemetry + automated rollback |
 
-Naming what's missing reads as senior engineering; pretending nothing is reads as junior.
 
 ---
 
@@ -140,7 +139,7 @@ The pattern this demo implements — push-to-talk frontend, STT, Claude with MCP
 - **Internal employee assistants** (HR, IT, finance) where the same agent loop wraps internal APIs as MCP tools.
 - **Contact-centre augmentation** where ElevenLabs supplies the voice persona and MCP supplies the integrations.
 
-The voice quality is what makes any of these acceptable to a real human on the other end of the line. That's the bet ElevenLabs is making, and it's the right one.
+The voice quality is what makes any of these acceptable to a real human on the other end of the line. 
 
 ---
 
@@ -148,7 +147,7 @@ The voice quality is what makes any of these acceptable to a real human on the o
 
 I'm Jamie Sullivan — Auckland-based developer-founder of [Summit53](https://summit53.io), a CRM and revenue-intelligence product I've built solo. I've shipped ElevenLabs voice cloning into production at Summit53 for product walkthroughs and outbound prospecting; you're hearing the same cloned voice here.
 
-I built this artefact across two evenings as part of my application for the **Oceania Solutions Engineer role at ElevenLabs** — I'd rather show than tell, and the SE muscle the role calls for is exactly what reference implementations like this one demand. The Auckland time zone is a feature for any Oceania-facing customer; the demo makes it implicit.
+I built this artefact across two evenings as part of my application for the **Oceania Solutions Engineer role at ElevenLabs** 
 
 ---
 
