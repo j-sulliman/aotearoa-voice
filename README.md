@@ -8,13 +8,11 @@
 
 Hold the microphone, ask a Kiwi tour guide about Aotearoa, hear the answer back. Built end-to-end — voice frontend, Claude agent layer, MCP server with curated tour tools, deployed via Docker and Cloudflare Tunnel.
 
-Built across two evenings as the artefact for my application for the **ElevenLabs Solutions Engineer (Oceania)** role.
 
 ---
 
 ## Try it
 
-**Live demo:** https://aotearoa.jsull.net
 
 **Run it locally:**
 
@@ -147,7 +145,6 @@ The voice quality is what makes any of these acceptable to a real human on the o
 
 I'm Jamie Sullivan — Auckland-based developer-founder of [Summit53](https://summit53.io), a CRM and revenue-intelligence product I've built solo. I've shipped ElevenLabs voice cloning into production at Summit53 for product walkthroughs and outbound prospecting; you're hearing the same cloned voice here.
 
-I built this artefact across two evenings as part of my application for the **Oceania Solutions Engineer role at ElevenLabs** 
 
 ---
 
